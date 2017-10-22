@@ -9,8 +9,8 @@ If you parse the input below, the Result would be 120.
 
 If an Integer is parsed in the string, then you PUSH the number to the Stack.
 
-If a {+, -, *} Operator is parsed, then you POP the two top numbers of the Stack 
-and apply the (binary) Operator.
+If a {+, -, *} Operator is parsed, then you POP the two top numbers of the Stack, apply the (binary) Operator,
+then you PUSH Result of operation to the Stack.
 
 If a 'DUP' is parsed, then you peek at the top value in Stack, and you duplicate by PUSHing
 it to the Stack.
